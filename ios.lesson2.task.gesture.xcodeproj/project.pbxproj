@@ -13,6 +13,7 @@
 		841015FA226E2897005172B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841015F9226E2897005172B3 /* Assets.xcassets */; };
 		841015FD226E2897005172B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841015FB226E2897005172B3 /* LaunchScreen.storyboard */; };
 		84101600226E2897005172B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 841015FF226E2897005172B3 /* main.m */; };
+		84101608226E2E40005172B3 /* IPCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84101607226E2E40005172B3 /* IPCustomView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		841015FC226E2897005172B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		841015FE226E2897005172B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		841015FF226E2897005172B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84101606226E2E40005172B3 /* IPCustomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPCustomView.h; sourceTree = "<group>"; };
+		84101607226E2E40005172B3 /* IPCustomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IPCustomView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		841015EF226E288D005172B3 /* ios.lesson2.task.gesture */ = {
 			isa = PBXGroup;
 			children = (
+				84101606226E2E40005172B3 /* IPCustomView.h */,
+				84101607226E2E40005172B3 /* IPCustomView.m */,
 				841015F0226E288D005172B3 /* AppDelegate.h */,
 				841015F1226E288D005172B3 /* AppDelegate.m */,
 				841015F3226E288D005172B3 /* ViewController.h */,
@@ -141,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84101608226E2E40005172B3 /* IPCustomView.m in Sources */,
 				841015F5226E288D005172B3 /* ViewController.m in Sources */,
 				84101600226E2897005172B3 /* main.m in Sources */,
 				841015F2226E288D005172B3 /* AppDelegate.m in Sources */,

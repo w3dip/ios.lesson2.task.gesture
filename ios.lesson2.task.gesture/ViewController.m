@@ -7,17 +7,19 @@
 //
 
 #import "ViewController.h"
+#import "IPCustomView.h"
 
 @interface ViewController ()
-
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    IPCustomView* view = [[IPCustomView alloc] initWithParent:self.view];
+    [self.view addSubview:view];
 }
-
 
 @end
